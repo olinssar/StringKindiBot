@@ -21,15 +21,15 @@ async def start(bot: Client, msg: Message):
 🎧¦بايـروجـرام مـيوزك للبوتات🤖
 - يعمـل هـذا البـوت لمساعدتـك بطريقـة سهلـه للحصـول على كـود تيرمكـس لتشغيل تلـيثون والبايروجرام لتشغيل سـورس اغــاني تم انشـاء هـذا البـوت بواسطـة
 
-بواسطـة : [ٌٍALMORTAGEL](tg://user?id=5089553588) !""",
+بواسطـة : [ٌٍALi kindi](tg://user?id=5422153027) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="🌐 ⍆ اضغط لبدا استخراج كود ⍅🌐", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("⚙ الــســــوࢪسـ ⚙️", url="https://t.me/source_av"),
-                    InlineKeyboardButton("ALMORTAGEL", user_id=5089553588)
+                    InlineKeyboardButton("⚙ الــســــوࢪسـ ⚙️", url="https://t.me/TH3NK"),
+                    InlineKeyboardButton("ALi kindi", user_id=5422153027)
                 ]
             ]
         ),
