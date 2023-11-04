@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://alikindi.online/quranjpg/nizk.jpg", caption=f"» 📣 لا يمكنك استخدام البوت . [ٍ꙳𝗌𝗈𝗎𝗋𝖼𝖾 𝗇𝗂𝗓𝗄({link}) 🔘 الا بعد الاشتراك بقناة البوت . [𝗌𝗈𝗎𝗋𝖼𝖾 𝗇𝗂𝗓𝗄]({link}) 📡 اشترك بقناة بعدها ارسل /start .",
+                    photo="https://alikindi.online/quranjpg/nizk.jpg", caption=f"» 📣 لا يمكنك استخدام البوت . [ٍ꙳𝗌𝗈𝗎𝗋𝖼𝖾 𝗇𝗂𝗓𝗄]({link}) 🔘 الا بعد الاشتراك بقناة البوت . [𝗌𝗈𝗎𝗋𝖼𝖾 𝗇𝗂𝗓𝗄]({link}) 📡 اشترك بقناة بعدها ارسل /start .",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
